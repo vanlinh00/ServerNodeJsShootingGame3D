@@ -5,5 +5,6 @@ module.exports=class player{
         this.username=""
         this.id=shortId.generate();
         this.position= new Vector3D();
+        this.rotation = new Vector3D();
     }
 }
